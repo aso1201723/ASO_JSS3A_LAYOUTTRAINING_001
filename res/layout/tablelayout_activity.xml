@@ -2,6 +2,7 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
+    android:shrinkColumns="3"
     android:stretchColumns="2" >
 
     <TableRow
@@ -15,31 +16,35 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="10dp"
             android:text="選択"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
             android:text="商品名"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
             android:text="数量"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
     </TableRow>
 
@@ -53,18 +58,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#DDFFDD"
-            android:button="@drawable/custom_checkbox" />
+            android:button="@drawable/custom_checkbox"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="シャープ AQUOS E9ライン 32V型"
-            android:textSize="15sp" />
+            android:textSize="13sp" />
 
         <EditText
             android:id="@+id/editText1"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:ems="10" />
 
@@ -79,19 +86,22 @@
             android:id="@+id/checkBox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#DDFFDD"
             android:button="@drawable/custom_checkbox"
-            android:background="#DDFFDD" />
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="東芝 REGZA 32V型 32A1L"
-            android:textSize="15sp" />
+            android:textSize="13sp" />
 
         <EditText
             android:id="@+id/editText2"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:ems="10" >
 
@@ -109,19 +119,22 @@
             android:id="@+id/checkBox3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#DDFFDD"
             android:button="@drawable/custom_checkbox"
-            android:background="#DDFFDD" />
+            android:paddingBottom="10dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="10dp" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SONY BRAVIA CX400シリーズ 32V型"
-            android:textSize="15sp" />
+            android:textSize="13sp" />
 
         <EditText
             android:id="@+id/editText3"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:ems="10" />
 
